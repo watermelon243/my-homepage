@@ -10,39 +10,31 @@
            HSL THEME SYSTEM — Light & Dark
            ======================================== */
         :root {
-            --hue-base: 245;
-            --hue-accent: 330;
-
-            /* Light mode */
-            --bg: hsl(240, 20%, 97%);
-            --bg-alt: hsl(240, 15%, 94%);
-            --text: hsl(240, 10%, 10%);
-            --text-light: hsl(240, 6%, 40%);
-            --text-muted: hsl(240, 4%, 55%);
+            --bg: hsl(240, 12%, 98%);
+            --bg-alt: hsl(240, 8%, 95%);
+            --text: hsl(240, 8%, 12%);
+            --text-light: hsl(240, 5%, 42%);
+            --text-muted: hsl(240, 3%, 55%);
             --card: hsl(0, 0%, 100%);
-            --card-alt: hsl(240, 15%, 96%);
-            --border: hsl(240, 10%, 88%);
-            --border-light: hsl(240, 10%, 92%);
-            --primary: hsl(245, 60%, 50%);
-            --primary-light: hsl(245, 55%, 62%);
-            --accent: hsl(330, 65%, 52%);
-            --accent-light: hsl(330, 60%, 64%);
-            --gradient-1: hsl(245, 70%, 60%);
-            --gradient-2: hsl(280, 65%, 62%);
-            --gradient-3: hsl(330, 70%, 62%);
-            --gradient-4: hsl(200, 70%, 58%);
-            --glass-bg: rgba(255, 255, 255, 0.5);
-            --glass-border: rgba(255, 255, 255, 0.6);
-            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
-            --nav-bg: rgba(255, 255, 255, 0.7);
-            --hero-glow-1: hsla(245, 70%, 65%, 0.2);
-            --hero-glow-2: hsla(280, 65%, 65%, 0.15);
-            --hero-glow-3: hsla(330, 70%, 65%, 0.15);
-            --hero-glow-4: hsla(200, 70%, 62%, 0.12);
-            --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
-            --shadow-md: 0 8px 32px rgba(0,0,0,0.06);
-            --shadow-lg: 0 16px 48px rgba(0,0,0,0.09);
-            --radius-sm: 10px;
+            --card-alt: hsl(240, 10%, 95%);
+            --border: hsl(240, 8%, 88%);
+            --border-light: hsl(240, 8%, 93%);
+            --primary: hsl(245, 58%, 52%);
+            --accent: hsl(335, 60%, 54%);
+            --gradient-1: hsl(245, 65%, 58%);
+            --gradient-2: hsl(280, 55%, 58%);
+            --gradient-3: hsl(335, 65%, 58%);
+            --gradient-4: hsl(200, 60%, 55%);
+            --glass-bg: rgba(255,255,255,0.45);
+            --glass-border: rgba(255,255,255,0.55);
+            --nav-bg: rgba(255,255,255,0.65);
+            --hero-glow-1: hsla(245, 65%, 62%, 0.18);
+            --hero-glow-2: hsla(280, 60%, 60%, 0.12);
+            --hero-glow-3: hsla(335, 60%, 60%, 0.12);
+            --hero-glow-4: hsla(200, 60%, 58%, 0.1);
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.03);
+            --shadow-md: 0 8px 28px rgba(0,0,0,0.05);
+            --shadow-lg: 0 16px 44px rgba(0,0,0,0.08);
             --radius: 16px;
             --radius-lg: 24px;
             --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -50,65 +42,42 @@
         }
 
         [data-theme="dark"] {
-            --bg: hsl(240, 10%, 5%);
-            --bg-alt: hsl(240, 8%, 8%);
-            --text: hsl(240, 5%, 90%);
-            --text-light: hsl(240, 4%, 58%);
+            --bg: hsl(240, 10%, 6%);
+            --bg-alt: hsl(240, 8%, 9%);
+            --text: hsl(240, 5%, 88%);
+            --text-light: hsl(240, 4%, 56%);
             --text-muted: hsl(240, 3%, 42%);
-            --card: hsl(240, 8%, 10%);
-            --card-alt: hsl(240, 7%, 13%);
-            --border: hsl(240, 7%, 18%);
-            --border-light: hsl(240, 6%, 14%);
-            --primary: hsl(245, 70%, 72%);
-            --primary-light: hsl(245, 65%, 80%);
-            --accent: hsl(330, 65%, 65%);
-            --accent-light: hsl(330, 60%, 74%);
-            --gradient-1: hsl(245, 75%, 65%);
-            --gradient-2: hsl(280, 60%, 60%);
-            --gradient-3: hsl(330, 70%, 62%);
-            --gradient-4: hsl(200, 65%, 58%);
-            --glass-bg: rgba(20, 20, 40, 0.55);
-            --glass-border: rgba(255, 255, 255, 0.06);
-            --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-            --nav-bg: rgba(10, 10, 20, 0.72);
-            --hero-glow-1: hsla(245, 65%, 55%, 0.3);
-            --hero-glow-2: hsla(280, 55%, 50%, 0.2);
-            --hero-glow-3: hsla(330, 60%, 50%, 0.2);
-            --hero-glow-4: hsla(200, 55%, 50%, 0.15);
+            --card: hsl(240, 8%, 11%);
+            --card-alt: hsl(240, 7%, 14%);
+            --border: hsl(240, 7%, 19%);
+            --border-light: hsl(240, 6%, 15%);
+            --primary: hsl(245, 65%, 68%);
+            --accent: hsl(335, 60%, 62%);
+            --gradient-1: hsl(245, 70%, 62%);
+            --gradient-2: hsl(280, 58%, 60%);
+            --gradient-3: hsl(335, 65%, 60%);
+            --gradient-4: hsl(200, 62%, 58%);
+            --glass-bg: rgba(20,20,40,0.45);
+            --glass-border: rgba(255,255,255,0.05);
+            --nav-bg: rgba(12,12,24,0.65);
+            --hero-glow-1: hsla(245, 60%, 55%, 0.25);
+            --hero-glow-2: hsla(280, 55%, 52%, 0.16);
+            --hero-glow-3: hsla(335, 55%, 52%, 0.16);
+            --hero-glow-4: hsla(200, 55%, 52%, 0.12);
             --shadow-sm: 0 2px 8px rgba(0,0,0,0.2);
-            --shadow-md: 0 8px 32px rgba(0,0,0,0.3);
-            --shadow-lg: 0 16px 48px rgba(0,0,0,0.4);
+            --shadow-md: 0 8px 28px rgba(0,0,0,0.3);
+            --shadow-lg: 0 16px 44px rgba(0,0,0,0.4);
         }
 
         /* ========================================
            RESET & BASE
            ======================================== */
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-        html {
-            scroll-behavior: smooth;
-            scrollbar-width: thin;
-            scrollbar-color: var(--border) transparent;
-            scroll-snap-type: y proximity;
-            scroll-padding-top: 0;
-        }
-
-        ::-webkit-scrollbar {
-            width: 6px;
-        }
-        ::-webkit-scrollbar-track {
-            background: transparent;
-        }
-        ::-webkit-scrollbar-thumb {
-            background: var(--border);
-            border-radius: 3px;
-        }
-        ::-webkit-scrollbar-thumb:hover {
-            background: var(--text-muted);
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
         }
 
         body {
@@ -119,431 +88,317 @@
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
             transition: background-color 0.4s var(--ease-out), color 0.4s var(--ease-out);
-            overflow-x: hidden;
         }
 
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 5px; height: 5px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+
         /* ========================================
-           NOISE TEXTURE OVERLAY
+           NOISE OVERLAY
            ======================================== */
         .noise-overlay {
-            position: fixed;
-            inset: 0;
-            z-index: 9999;
-            pointer-events: none;
-            opacity: 0.035;
+            position: fixed; inset: 0; z-index: 9999;
+            pointer-events: none; opacity: 0.03;
         }
-        [data-theme="dark"] .noise-overlay {
-            opacity: 0.05;
-        }
+        [data-theme="dark"] .noise-overlay { opacity: 0.045; }
 
         /* ========================================
-           READING PROGRESS BAR
+           HORIZONTAL PAGES WRAPPER
            ======================================== */
-        .progress-bar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            height: 3px;
-            z-index: 200;
-            background: linear-gradient(90deg, var(--gradient-1), var(--gradient-3));
-            border-radius: 0 2px 2px 0;
-            transition: width 0.1s linear;
+        .pages-wrapper {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-snap-type: x mandatory;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .page {
+            flex: 0 0 100vw;
+            width: 100vw;
+            height: 100vh;
+            scroll-snap-align: start;
+            scroll-snap-stop: always;
+            overflow-y: auto;
+            overflow-x: hidden;
+            position: relative;
+            padding: 80px 48px 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         /* ========================================
-           NAVIGATION — Glass
+           PAGE INDICATORS (right side dots)
+           ======================================== */
+        .page-dots {
+            position: fixed;
+            right: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 150;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+        .page-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--border);
+            border: none;
+            cursor: pointer;
+            transition: all 0.35s var(--ease-out);
+            position: relative;
+        }
+        .page-dot:hover { background: var(--text-muted); transform: scale(1.3); }
+        .page-dot.active {
+            background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
+            box-shadow: 0 0 12px hsla(280, 55%, 55%, 0.35);
+            transform: scale(1.2);
+        }
+        .page-dot .dot-label {
+            position: absolute;
+            right: 22px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.25s;
+        }
+        .page-dot:hover .dot-label { opacity: 1; }
+
+        /* ========================================
+           NAVIGATION — Glass top bar
            ======================================== */
         .nav {
-            position: fixed;
-            top: 12px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 100;
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
             background: var(--nav-bg);
             backdrop-filter: blur(16px) saturate(180%);
             -webkit-backdrop-filter: blur(16px) saturate(180%);
-            border: 1px solid var(--glass-border);
-            border-radius: 50px;
-            padding: 6px 8px;
+            border-bottom: 1px solid var(--border-light);
             transition: all 0.35s var(--ease-out);
         }
-
-        .nav.scrolled {
-            top: 0;
-            border-radius: 0 0 24px 24px;
-            padding: 8px 24px;
-            left: 0;
-            right: 0;
-            transform: none;
-            border-top: none;
-            box-shadow: var(--shadow-md);
-        }
-
         .nav-inner {
-            max-width: 960px;
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 16px;
+            max-width: 1200px; margin: 0 auto;
+            display: flex; align-items: center; justify-content: space-between;
+            height: 52px; padding: 0 32px;
         }
-
         .nav-logo {
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--primary);
-            letter-spacing: 0.02em;
-            white-space: nowrap;
-            padding: 4px 8px;
+            font-size: 1rem; font-weight: 700;
+            background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
         }
-
-        .nav-links {
-            display: flex;
-            gap: 8px;
-            list-style: none;
-            align-items: center;
-        }
-
+        .nav-links { display: flex; gap: 4px; list-style: none; align-items: center; }
         .nav-links a {
-            text-decoration: none;
-            color: var(--text-light);
-            font-size: 0.88rem;
-            font-weight: 500;
-            padding: 8px 16px;
-            border-radius: 20px;
+            text-decoration: none; color: var(--text-light);
+            font-size: 0.85rem; font-weight: 500;
+            padding: 6px 16px; border-radius: 18px;
             transition: all 0.25s var(--ease-out);
-            position: relative;
         }
-
-        .nav-links a:hover {
-            color: var(--primary);
-            background: var(--card-alt);
-        }
-
+        .nav-links a:hover { color: var(--primary); background: var(--card-alt); }
         .nav-links a.active {
             color: #fff;
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
-            box-shadow: 0 4px 12px rgba(100, 60, 200, 0.3);
+            box-shadow: 0 4px 12px rgba(100,60,200,0.3);
         }
-
-        /* Theme Toggle */
         .theme-toggle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            border: 1px solid var(--border);
-            background: var(--card);
-            cursor: pointer;
-            font-size: 1.1rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all 0.3s var(--ease-out);
-            color: var(--text);
-            flex-shrink: 0;
+            width: 38px; height: 38px; border-radius: 50%;
+            border: 1px solid var(--border); background: var(--card);
+            cursor: pointer; font-size: 1rem;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.3s var(--ease-out); color: var(--text);
+            flex-shrink: 0; margin-left: 8px;
         }
         .theme-toggle:hover {
             border-color: var(--primary);
-            box-shadow: 0 0 16px rgba(100, 60, 200, 0.15);
+            box-shadow: 0 0 14px rgba(100,60,200,0.12);
             transform: rotate(15deg);
         }
-        .theme-toggle:active {
-            transform: scale(0.92) rotate(15deg);
+        .theme-toggle:active { transform: scale(0.92) rotate(15deg); }
+
+        /* Progress bar — horizontal */
+        .progress-bar {
+            position: fixed; top: 52px; left: 0; height: 3px; z-index: 200;
+            background: linear-gradient(90deg, var(--gradient-1), var(--gradient-3));
+            border-radius: 0 2px 2px 0; transition: width 0.1s linear;
         }
 
         /* ========================================
-           HERO — Gradient Mesh
+           PAGE 1 — HERO
            ======================================== */
-        .hero {
-            min-height: 100vh;
-            scroll-snap-align: start;
-            scroll-snap-stop: always;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 120px 24px 80px;
-            position: relative;
+        .hero-page {
+            background: var(--bg);
             overflow: hidden;
             isolation: isolate;
         }
-
-        /* Animated gradient orbs */
         .hero-mesh {
-            position: absolute;
-            inset: -30%;
-            z-index: 0;
-            pointer-events: none;
+            position: absolute; inset: -20%; z-index: 0; pointer-events: none;
         }
         .hero-mesh .orb {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(100px);
-            animation: orb-drift 20s ease-in-out infinite alternate;
+            position: absolute; border-radius: 50%; filter: blur(90px);
+            animation: orb-drift 22s ease-in-out infinite alternate;
         }
         .hero-mesh .orb:nth-child(1) {
-            width: 500px; height: 500px;
-            background: var(--hero-glow-1);
-            top: 10%; left: 5%;
-            animation-delay: 0s;
+            width: 460px; height: 460px; background: var(--hero-glow-1);
+            top: 5%; left: -5%; animation-delay: 0s;
         }
         .hero-mesh .orb:nth-child(2) {
-            width: 400px; height: 400px;
-            background: var(--hero-glow-2);
-            top: 50%; right: -5%;
-            animation-delay: -5s;
+            width: 360px; height: 360px; background: var(--hero-glow-2);
+            top: 55%; right: -8%; animation-delay: -6s;
         }
         .hero-mesh .orb:nth-child(3) {
-            width: 350px; height: 350px;
-            background: var(--hero-glow-3);
-            bottom: 0%; left: 30%;
-            animation-delay: -10s;
+            width: 300px; height: 300px; background: var(--hero-glow-3);
+            bottom: -5%; left: 25%; animation-delay: -11s;
         }
         .hero-mesh .orb:nth-child(4) {
-            width: 300px; height: 300px;
-            background: var(--hero-glow-4);
-            top: 0%; right: 20%;
-            animation-delay: -15s;
+            width: 260px; height: 260px; background: var(--hero-glow-4);
+            top: 0%; right: 15%; animation-delay: -17s;
         }
-
         @keyframes orb-drift {
-            0%   { transform: translate(0, 0) scale(1); }
-            33%  { transform: translate(60px, -40px) scale(1.15); }
-            66%  { transform: translate(-30px, 50px) scale(0.9); }
-            100% { transform: translate(20px, -20px) scale(1.05); }
+            0%   { transform: translate(0,0) scale(1); }
+            33%  { transform: translate(50px,-30px) scale(1.12); }
+            66%  { transform: translate(-25px,40px) scale(0.92); }
+            100% { transform: translate(15px,-15px) scale(1.04); }
         }
 
         .hero-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            max-width: 640px;
+            position: relative; z-index: 2; text-align: center; max-width: 600px;
         }
-
-        /* Avatar with glow ring */
         .hero-avatar-wrap {
-            position: relative;
-            display: inline-block;
-            margin-bottom: 32px;
+            position: relative; display: inline-block; margin-bottom: 28px;
         }
         .hero-avatar-wrap::before {
-            content: '';
-            position: absolute;
-            inset: -8px;
-            border-radius: 50%;
+            content: ''; position: absolute; inset: -7px; border-radius: 50%;
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
-            opacity: 0.6;
-            filter: blur(12px);
+            opacity: 0.5; filter: blur(10px);
             animation: avatar-glow 3s ease-in-out infinite alternate;
         }
         @keyframes avatar-glow {
-            from { opacity: 0.4; filter: blur(10px); }
-            to   { opacity: 0.7; filter: blur(16px); }
+            from { opacity: 0.35; filter: blur(8px); }
+            to   { opacity: 0.6; filter: blur(14px); }
         }
         .hero-avatar {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            object-fit: cover;
-            display: block;
-            position: relative;
-            z-index: 1;
-            border: 4px solid var(--card);
-            box-shadow: var(--shadow-lg);
+            width: 150px; height: 150px; border-radius: 50%;
+            object-fit: cover; display: block; position: relative; z-index: 1;
+            border: 4px solid var(--card); box-shadow: var(--shadow-lg);
             transition: transform 0.4s var(--ease-spring);
         }
-        .hero-avatar:hover {
-            transform: scale(1.05);
-        }
+        .hero-avatar:hover { transform: scale(1.05); }
 
-        /* Gradient text name */
         .hero-name {
-            font-size: clamp(2.8rem, 8vw, 5rem);
-            font-weight: 800;
-            letter-spacing: 0.03em;
-            line-height: 1.1;
-            margin-bottom: 12px;
+            font-size: clamp(2.4rem, 7vw, 4.5rem); font-weight: 800;
+            letter-spacing: 0.03em; line-height: 1.1; margin-bottom: 10px;
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2), var(--gradient-3));
             background-size: 200% auto;
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: transparent;
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent;
             animation: shimmer 4s ease-in-out infinite;
         }
         @keyframes shimmer {
             0%, 100% { background-position: 0% center; }
             50%      { background-position: 200% center; }
         }
-
         .hero-subtitle {
-            font-size: 1.1rem;
-            color: var(--text-light);
-            font-weight: 400;
-            margin-bottom: 28px;
-            letter-spacing: 0.02em;
-            opacity: 0.85;
+            font-size: 1.05rem; color: var(--text-light);
+            margin-bottom: 26px; letter-spacing: 0.02em;
         }
-
-        /* Glass contact pills */
         .hero-contact {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 12px;
-            justify-content: center;
+            display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;
         }
         .hero-contact .tag {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 20px;
-            background: var(--glass-bg);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            border: 1px solid var(--glass-border);
-            border-radius: 50px;
-            font-size: 0.9rem;
-            color: var(--text);
-            text-decoration: none;
+            display: inline-flex; align-items: center; gap: 7px;
+            padding: 9px 18px; background: var(--glass-bg);
+            backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+            border: 1px solid var(--glass-border); border-radius: 50px;
+            font-size: 0.88rem; color: var(--text); text-decoration: none;
             transition: all 0.3s var(--ease-out);
         }
         .hero-contact .tag:hover {
-            background: var(--card);
-            border-color: var(--primary);
-            box-shadow: var(--shadow-md);
-            transform: translateY(-2px);
+            background: var(--card); border-color: var(--primary);
+            box-shadow: var(--shadow-md); transform: translateY(-2px);
         }
-        .hero-contact .tag .icon {
-            font-size: 1.1rem;
-        }
+        .hero-contact .tag .icon { font-size: 1.05rem; }
 
-        /* Scroll hint */
-        .scroll-hint {
-            position: absolute;
-            bottom: 32px;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 2;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8px;
-            color: var(--text-muted);
-            font-size: 0.75rem;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            animation: float 2s ease-in-out infinite;
+        /* Swipe hint */
+        .swipe-hint {
+            position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%);
+            z-index: 2; display: flex; align-items: center; gap: 6px;
+            color: var(--text-muted); font-size: 0.75rem;
+            letter-spacing: 0.1em; animation: hint-pulse 2s ease-in-out infinite;
         }
-        .scroll-hint .arrow {
-            width: 20px;
-            height: 20px;
+        .swipe-hint .arrow-right {
+            width: 16px; height: 16px;
             border-right: 2px solid var(--text-muted);
-            border-bottom: 2px solid var(--text-muted);
+            border-top: 2px solid var(--text-muted);
             transform: rotate(45deg);
-            opacity: 0.5;
         }
-        @keyframes float {
-            0%, 100% { transform: translateX(-50%) translateY(0); }
-            50%      { transform: translateX(-50%) translateY(8px); }
-        }
-
-        /* ========================================
-           WAVE DIVIDER
-           ======================================== */
-        .wave-divider {
-            position: relative;
-            height: 80px;
-            overflow: hidden;
-            margin-top: -1px;
-        }
-        .wave-divider svg {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
-        }
-        .wave-divider .wave-fill {
-            fill: var(--bg);
+        @keyframes hint-pulse {
+            0%, 100% { opacity: 0.5; }
+            50%      { opacity: 1; }
         }
 
         /* ========================================
-           SECTION COMMONS
+           PAGE INNER LAYOUT
            ======================================== */
-        .section {
-            padding: 80px 24px;
-            position: relative;
-            scroll-snap-align: start;
+        .page-inner {
+            max-width: 780px; width: 100%;
         }
-        .section-alt {
+        .page-header {
+            margin-bottom: 40px;
+        }
+        .page-label {
+            display: inline-block; font-size: 0.75rem; font-weight: 600;
+            letter-spacing: 0.12em; text-transform: uppercase;
+            color: var(--accent); margin-bottom: 6px;
+            padding: 3px 12px;
+            background: hsla(335, 55%, 55%, 0.08); border-radius: 20px;
+        }
+        .page-title {
+            font-size: clamp(1.4rem, 3.5vw, 1.8rem); font-weight: 700;
+            color: var(--text); letter-spacing: 0.02em;
+        }
+        .page-line {
+            width: 42px; height: 3px;
+            background: linear-gradient(90deg, var(--gradient-1), var(--gradient-3));
+            border-radius: 2px; margin-top: 10px;
+        }
+
+        /* ========================================
+           PAGE 2 — EDUCATION
+           ======================================== */
+        .edu-page {
             background: var(--bg-alt);
         }
-        .section-inner {
-            max-width: 900px;
-            margin: 0 auto;
-        }
-        .section-header {
-            margin-bottom: 48px;
-        }
-        .section-label {
-            display: inline-block;
-            font-size: 0.78rem;
-            font-weight: 600;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            color: var(--accent);
-            margin-bottom: 8px;
-            padding: 4px 12px;
-            background: hsla(330, 60%, 55%, 0.1);
-            border-radius: 20px;
-        }
-        .section-title {
-            font-size: clamp(1.5rem, 4vw, 2rem);
-            font-weight: 700;
-            color: var(--text);
-            letter-spacing: 0.02em;
-        }
-        .section-line {
-            width: 48px;
-            height: 3px;
-            background: linear-gradient(90deg, var(--gradient-1), var(--gradient-3));
-            border-radius: 2px;
-            margin-top: 12px;
-        }
-
-        /* ========================================
-           EDUCATION — Side by Side
-           ======================================== */
-        .edu-grid {
+        .edu-cards {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 24px;
             position: relative;
         }
-        .edu-grid::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            top: 10%;
-            bottom: 10%;
-            width: 2px;
-            background: linear-gradient(180deg, var(--gradient-1), var(--gradient-3));
-            border-radius: 1px;
-            transform: translateX(-50%);
-            opacity: 0.3;
+        .edu-cards::before {
+            content: ''; position: absolute; left: 50%; top: 8%; bottom: 8%;
+            width: 2px; background: linear-gradient(180deg, var(--gradient-1), var(--gradient-3));
+            border-radius: 1px; transform: translateX(-50%); opacity: 0.25;
         }
         .edu-card {
-            background: var(--card);
-            border-radius: var(--radius);
-            padding: 32px;
-            border: 1px solid var(--border);
-            position: relative;
-            transition: all 0.35s var(--ease-out);
-            overflow: hidden;
+            background: var(--card); border-radius: var(--radius-lg);
+            padding: 36px 32px; border: 1px solid var(--border);
+            position: relative; transition: all 0.35s var(--ease-out);
         }
         .edu-card::before {
-            content: '';
-            position: absolute;
-            top: 0; left: 0; right: 0;
-            height: 3px;
+            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+            border-radius: 3px 3px 0 0;
         }
         .edu-card.undergrad::before {
             background: linear-gradient(90deg, var(--gradient-1), var(--gradient-2));
@@ -552,239 +407,128 @@
             background: linear-gradient(90deg, var(--gradient-3), var(--gradient-1));
         }
         .edu-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px); box-shadow: var(--shadow-lg);
             border-color: transparent;
         }
-        .edu-card .edu-icon {
-            font-size: 2rem;
-            margin-bottom: 16px;
-            display: block;
-        }
-        .edu-card .school {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--text);
-            margin-bottom: 4px;
-        }
-        .edu-card .degree {
-            font-size: 0.92rem;
-            color: var(--text-light);
-            margin-bottom: 2px;
-        }
+        .edu-card .edu-icon { font-size: 1.8rem; margin-bottom: 14px; display: block; }
+        .edu-card .school { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+        .edu-card .degree { font-size: 0.9rem; color: var(--text-light); margin-bottom: 2px; }
         .edu-card .period {
-            display: inline-block;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-weight: 500;
-            margin-top: 14px;
-            padding: 4px 14px;
-            background: var(--card-alt);
-            border-radius: 20px;
+            display: inline-block; font-size: 0.78rem; color: var(--text-muted);
+            font-weight: 500; margin-top: 12px; padding: 4px 12px;
+            background: var(--card-alt); border-radius: 18px;
         }
 
         /* ========================================
-           PROJECTS — Glass Cards
+           PAGE 3 — PROJECTS (scrollable internally)
            ======================================== */
-        .project-card {
-            background: var(--card);
-            border-radius: var(--radius-lg);
-            padding: 36px;
-            margin-bottom: 24px;
+        .projects-page .project-card {
+            background: var(--card); border-radius: var(--radius-lg);
+            padding: 32px; margin-bottom: 20px;
             border: 1px solid var(--border);
-            border-left: 4px solid transparent;
-            border-image: linear-gradient(180deg, var(--gradient-1), var(--gradient-3)) 1;
             border-left: 4px solid var(--gradient-1);
-            position: relative;
-            transition: all 0.4s var(--ease-out);
-            overflow: hidden;
+            transition: all 0.35s var(--ease-out);
+            position: relative; overflow: hidden;
         }
-        .project-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, hsla(245, 60%, 55%, 0.03), hsla(330, 60%, 55%, 0.03));
-            opacity: 0;
-            transition: opacity 0.4s var(--ease-out);
-            pointer-events: none;
+        .projects-page .project-card::after {
+            content: ''; position: absolute; inset: 0;
+            background: linear-gradient(135deg, hsla(245,55%,55%,0.02), hsla(335,55%,55%,0.02));
+            opacity: 0; transition: opacity 0.35s var(--ease-out); pointer-events: none;
         }
-        .project-card:hover {
-            transform: translateY(-6px);
-            box-shadow: var(--shadow-lg);
-            border-color: var(--border);
+        .projects-page .project-card:hover {
+            transform: translateY(-4px); box-shadow: var(--shadow-lg);
             border-left-color: var(--gradient-3);
         }
-        .project-card:hover::after {
-            opacity: 1;
-        }
+        .projects-page .project-card:hover::after { opacity: 1; }
         .project-header {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: baseline;
-            gap: 12px;
-            margin-bottom: 6px;
+            display: flex; flex-wrap: wrap; align-items: baseline;
+            gap: 10px; margin-bottom: 4px;
         }
-        .project-header h3 {
-            font-size: 1.2rem;
-            font-weight: 700;
-            color: var(--text);
-        }
+        .project-header h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); }
         .project-role {
-            font-size: 0.82rem;
-            font-weight: 600;
-            padding: 4px 14px;
-            border-radius: 20px;
-            background: linear-gradient(135deg, hsla(245, 60%, 55%, 0.1), hsla(330, 60%, 55%, 0.1));
+            font-size: 0.8rem; font-weight: 600; padding: 3px 12px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, hsla(245,55%,55%,0.08), hsla(335,55%,55%,0.08));
             color: var(--primary);
         }
-        .project-period {
-            font-size: 0.82rem;
-            color: var(--text-muted);
-            margin-bottom: 20px;
-        }
-        .project-body {
-            padding-left: 0;
-        }
+        .project-period { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 16px; }
         .project-item {
-            display: flex;
-            gap: 14px;
-            margin-bottom: 14px;
-            font-size: 0.94rem;
-            color: var(--text-light);
-            line-height: 1.7;
+            display: flex; gap: 12px; margin-bottom: 12px;
+            font-size: 0.9rem; color: var(--text-light); line-height: 1.65;
         }
-        .project-item:last-child {
-            margin-bottom: 0;
-        }
+        .project-item:last-child { margin-bottom: 0; }
         .project-item .bullet {
-            flex-shrink: 0;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
+            flex-shrink: 0; width: 7px; height: 7px; border-radius: 50%;
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
-            margin-top: 9px;
-            box-shadow: 0 0 8px hsla(280, 55%, 55%, 0.3);
+            margin-top: 8px;
+            box-shadow: 0 0 6px hsla(280,50%,55%,0.25);
         }
-        .project-item strong {
-            color: var(--text);
-            font-weight: 600;
-        }
-        /* Number highlights */
+        .project-item strong { color: var(--text); font-weight: 600; }
         .project-item .highlight {
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            color: transparent;
-            font-weight: 700;
+            -webkit-background-clip: text; background-clip: text;
+            -webkit-text-fill-color: transparent; color: transparent; font-weight: 700;
         }
         .project-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 20px;
-            padding-top: 18px;
+            display: flex; flex-wrap: wrap; gap: 7px;
+            margin-top: 16px; padding-top: 14px;
             border-top: 1px solid var(--border-light);
         }
         .project-tag {
-            font-size: 0.78rem;
-            padding: 5px 14px;
-            background: var(--card-alt);
-            color: var(--text-light);
-            border-radius: 20px;
-            font-weight: 500;
+            font-size: 0.76rem; padding: 4px 12px;
+            background: var(--card-alt); color: var(--text-light);
+            border-radius: 16px; font-weight: 500;
             transition: all 0.25s var(--ease-out);
         }
         .project-tag:hover {
-            background: linear-gradient(135deg, hsla(245, 60%, 55%, 0.12), hsla(330, 60%, 55%, 0.12));
+            background: linear-gradient(135deg, hsla(245,55%,55%,0.1), hsla(335,55%,55%,0.1));
             color: var(--primary);
         }
 
         /* ========================================
-           SKILLS — Bento Grid
+           PAGE 4 — SKILLS
            ======================================== */
+        .skills-page {
+            background: var(--bg-alt);
+        }
         .bento-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 18px;
-            grid-auto-rows: auto;
+            gap: 16px;
         }
         .bento-card {
-            background: var(--card);
-            border-radius: var(--radius-lg);
-            padding: 30px;
-            border: 1px solid var(--border);
+            background: var(--card); border-radius: var(--radius-lg);
+            padding: 28px; border: 1px solid var(--border);
             transition: all 0.35s var(--ease-out);
-            position: relative;
-            overflow: hidden;
+            position: relative; overflow: hidden;
         }
         .bento-card::after {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(135deg, hsla(245, 60%, 55%, 0.02), hsla(330, 60%, 55%, 0.02));
-            opacity: 0;
-            transition: opacity 0.35s var(--ease-out);
-            pointer-events: none;
+            content: ''; position: absolute; inset: 0;
+            background: linear-gradient(135deg, hsla(245,55%,55%,0.015), hsla(335,55%,55%,0.015));
+            opacity: 0; transition: opacity 0.35s var(--ease-out); pointer-events: none;
         }
         .bento-card:hover {
-            transform: translateY(-4px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px); box-shadow: var(--shadow-lg);
             border-color: transparent;
         }
-        .bento-card:hover::after {
-            opacity: 1;
-        }
-        .bento-card .bento-icon {
-            font-size: 2rem;
-            margin-bottom: 14px;
-            display: block;
-        }
-        .bento-card h4 {
-            font-size: 1.05rem;
-            font-weight: 700;
-            color: var(--text);
-            margin-bottom: 10px;
-        }
-        .bento-card p {
-            font-size: 0.9rem;
-            color: var(--text-light);
-            line-height: 1.65;
-        }
-        /* Bento spans */
-        .bento-wide {
-            grid-column: span 2;
-        }
-        .bento-tall {
-            grid-row: span 2;
-        }
-
-        /* Skill bars inside bento */
-        .skill-bars {
-            margin-top: 16px;
-        }
+        .bento-card:hover::after { opacity: 1; }
+        .bento-wide { grid-column: span 2; }
+        .bento-tall { grid-row: span 2; }
+        .bento-card .bento-icon { font-size: 1.7rem; margin-bottom: 12px; display: block; }
+        .bento-card h4 { font-size: 1rem; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+        .bento-card p { font-size: 0.88rem; color: var(--text-light); line-height: 1.6; }
+        .skill-bars { margin-top: 14px; }
         .skill-bar-item {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-            font-size: 0.84rem;
-            color: var(--text-light);
+            display: flex; align-items: center; gap: 8px;
+            margin-bottom: 9px; font-size: 0.82rem; color: var(--text-light);
         }
-        .skill-bar-item span:first-child {
-            width: 56px;
-            flex-shrink: 0;
-        }
+        .skill-bar-item span:first-child { width: 50px; flex-shrink: 0; }
         .skill-bar {
-            flex: 1;
-            height: 6px;
-            background: var(--border-light);
-            border-radius: 3px;
-            overflow: hidden;
+            flex: 1; height: 5px; background: var(--border-light);
+            border-radius: 3px; overflow: hidden;
         }
         .skill-bar-fill {
-            height: 100%;
-            border-radius: 3px;
+            height: 100%; border-radius: 3px;
             background: linear-gradient(90deg, var(--gradient-1), var(--gradient-3));
             transition: width 1.2s var(--ease-out);
         }
@@ -793,220 +537,84 @@
            FOOTER
            ======================================== */
         .footer {
-            text-align: center;
-            padding: 48px 24px;
-            color: var(--text-muted);
-            font-size: 0.84rem;
+            position: fixed; bottom: 0; left: 0; right: 0; z-index: 80;
+            text-align: center; padding: 10px 24px;
+            color: var(--text-muted); font-size: 0.78rem;
+            background: var(--nav-bg);
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
             border-top: 1px solid var(--border-light);
-            background: var(--bg-alt);
         }
-        .footer strong {
-            color: var(--text-light);
-            font-weight: 600;
-        }
-        .footer-links {
-            display: flex;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 14px;
-            flex-wrap: wrap;
-        }
-        .footer-links a {
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.84rem;
-            transition: color 0.2s;
-        }
-        .footer-links a:hover {
-            color: var(--primary);
-        }
+        .footer strong { color: var(--text-light); font-weight: 600; }
 
         /* ========================================
-           BACK TO TOP
+           BACK TO FIRST PAGE
            ======================================== */
-        .back-top {
-            position: fixed;
-            bottom: 28px;
-            right: 28px;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: var(--card);
-            color: var(--text);
-            border: 1px solid var(--border);
-            cursor: pointer;
-            font-size: 1.1rem;
-            box-shadow: var(--shadow-sm);
-            opacity: 0;
-            transform: translateY(12px);
+        .back-home {
+            position: fixed; bottom: 48px; right: 24px; z-index: 99;
+            width: 40px; height: 40px; border-radius: 50%;
+            background: var(--card); color: var(--text);
+            border: 1px solid var(--border); cursor: pointer;
+            font-size: 1rem; box-shadow: var(--shadow-sm);
+            opacity: 0; transform: translateY(10px);
             pointer-events: none;
             transition: all 0.35s var(--ease-out);
-            z-index: 99;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: flex; align-items: center; justify-content: center;
         }
-        .back-top.visible {
-            opacity: 1;
-            transform: translateY(0);
-            pointer-events: auto;
-        }
-        .back-top:hover {
+        .back-home.visible { opacity: 1; transform: translateY(0); pointer-events: auto; }
+        .back-home:hover {
             background: linear-gradient(135deg, var(--gradient-1), var(--gradient-3));
-            color: #fff;
-            border-color: transparent;
-            box-shadow: 0 8px 24px rgba(100, 60, 200, 0.35);
-            transform: translateY(-3px);
-        }
-        .back-top:active {
-            transform: scale(0.92);
-        }
-
-        /* ========================================
-           SCROLL-DRIVEN ANIMATIONS
-           ======================================== */
-        @supports (animation-timeline: view()) {
-            @media (prefers-reduced-motion: no-preference) {
-                .reveal {
-                    animation: fade-up linear forwards;
-                    animation-timeline: view();
-                    animation-range: entry 0% entry 30%;
-                }
-                .reveal-delay-1 { animation-range: entry 5% entry 35%; }
-                .reveal-delay-2 { animation-range: entry 10% entry 40%; }
-                .reveal-delay-3 { animation-range: entry 15% entry 45%; }
-
-                @keyframes fade-up {
-                    from {
-                        opacity: 0;
-                        transform: translateY(40px);
-                    }
-                    to {
-                        opacity: 1;
-                        transform: translateY(0);
-                    }
-                }
-
-                @keyframes fade-in {
-                    from { opacity: 0; }
-                    to   { opacity: 1; }
-                }
-            }
-        }
-
-        /* JS fallback class */
-        .reveal-visible {
-            animation: fade-up-js 0.7s var(--ease-out) forwards;
-        }
-        @keyframes fade-up-js {
-            from {
-                opacity: 0;
-                transform: translateY(40px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+            color: #fff; border-color: transparent;
+            box-shadow: 0 6px 20px rgba(100,60,200,0.3);
+            transform: translateY(-2px);
         }
 
         /* ========================================
            RESPONSIVE
            ======================================== */
         @media (max-width: 768px) {
-            .nav {
-                top: 8px;
-                left: 8px;
-                right: 8px;
-                transform: none;
-                border-radius: 40px;
-                padding: 4px 6px;
-            }
-            .nav.scrolled {
-                top: 0;
-                left: 0;
-                right: 0;
-                border-radius: 0 0 20px 20px;
-            }
-            .nav-links a {
-                font-size: 0.8rem;
-                padding: 6px 12px;
-            }
-            .hero {
-                padding: 100px 20px 60px;
-                min-height: auto;
-            }
-            .hero-name {
-                font-size: clamp(2rem, 10vw, 3rem);
-            }
-            .hero-avatar {
-                width: 120px;
-                height: 120px;
-            }
-            .edu-grid {
-                grid-template-columns: 1fr;
-            }
-            .edu-grid::before {
-                display: none;
-            }
-            .bento-grid {
-                grid-template-columns: 1fr;
-            }
-            .bento-wide {
-                grid-column: span 1;
-            }
-            .project-card {
-                padding: 24px 18px;
-            }
-            .section {
-                padding: 56px 20px;
-            }
-            .scroll-hint {
-                display: none;
-            }
+            .page { padding: 72px 24px 48px; }
+            .nav-inner { padding: 0 16px; }
+            .nav-links a { font-size: 0.78rem; padding: 5px 10px; }
+            .bento-grid { grid-template-columns: 1fr; }
+            .bento-wide { grid-column: span 1; }
+            .bento-tall { grid-row: span 1; }
+            .edu-cards { grid-template-columns: 1fr; }
+            .edu-cards::before { display: none; }
+            .project-card { padding: 22px 16px; }
+            .page-dots { right: 8px; gap: 10px; }
+            .page-dot { width: 8px; height: 8px; }
+            .page-dot .dot-label { display: none; }
+            .hero-avatar { width: 120px; height: 120px; }
         }
 
         @media (max-width: 480px) {
-            .nav-logo {
-                display: none;
-            }
-            .nav-links {
-                gap: 2px;
-            }
-            .nav-links a {
-                font-size: 0.75rem;
-                padding: 6px 10px;
-            }
-            .hero-contact .tag {
-                padding: 8px 14px;
-                font-size: 0.82rem;
-            }
-            .theme-toggle {
-                width: 34px;
-                height: 34px;
-                font-size: 0.95rem;
-            }
+            .nav-logo { display: none; }
+            .nav-links a { font-size: 0.72rem; padding: 4px 8px; }
+            .page { padding: 60px 16px 40px; }
+            .hero-contact .tag { padding: 7px 12px; font-size: 0.8rem; }
+            .theme-toggle { width: 34px; height: 34px; font-size: 0.9rem; }
         }
 
         /* ========================================
            PRINT
            ======================================== */
         @media print {
-            .nav, .back-top, .footer, .scroll-hint,
-            .noise-overlay, .progress-bar, .theme-toggle,
-            .hero-mesh, .wave-divider { display: none !important; }
-            body { background: #fff !important; color: #000 !important; }
+            .nav, .footer, .page-dots, .progress-bar,
+            .noise-overlay, .hero-mesh, .back-home, .swipe-hint { display: none !important; }
+            .pages-wrapper { display: block; overflow: visible; height: auto; }
+            .page { flex: none; width: auto; height: auto;
+                scroll-snap-align: none; overflow: visible;
+                padding: 24px 0; page-break-after: always; }
+            body { background: #fff !important; color: #000 !important;
+                overflow: visible; height: auto; }
             [data-theme="dark"] body { background: #fff !important; color: #000 !important; }
-            .section { padding: 24px 0; }
             .project-card, .edu-card, .bento-card {
-                box-shadow: none !important;
-                border: 1px solid #ddd !important;
+                box-shadow: none !important; border: 1px solid #ddd !important;
                 break-inside: avoid;
             }
             .hero-name {
-                -webkit-text-fill-color: #000 !important;
-                color: #000 !important;
+                -webkit-text-fill-color: #000 !important; color: #000 !important;
             }
-            .hero { min-height: auto; padding: 40px 0; }
         }
     </style>
 </head>
@@ -1022,7 +630,7 @@
         <rect width="100%" height="100%" filter="url(#noise)" opacity="1"/>
     </svg>
 
-    <!-- Reading Progress -->
+    <!-- Progress Bar -->
     <div class="progress-bar" id="progressBar"></div>
 
     <!-- Navigation -->
@@ -1030,95 +638,90 @@
         <div class="nav-inner">
             <span class="nav-logo">程梦茜</span>
             <ul class="nav-links">
-                <li><a href="#education">教育</a></li>
-                <li><a href="#projects">项目</a></li>
-                <li><a href="#skills">技能</a></li>
+                <li><a href="#page-home" data-page="0">首页</a></li>
+                <li><a href="#page-edu" data-page="1">教育</a></li>
+                <li><a href="#page-projects" data-page="2">项目</a></li>
+                <li><a href="#page-skills" data-page="3">技能</a></li>
             </ul>
             <button class="theme-toggle" id="themeToggle" aria-label="切换主题" title="切换亮色/暗色模式">🌓</button>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero" id="home">
-        <div class="hero-mesh" aria-hidden="true">
-            <div class="orb"></div>
-            <div class="orb"></div>
-            <div class="orb"></div>
-            <div class="orb"></div>
-        </div>
-        <div class="hero-content">
-            <div class="hero-avatar-wrap">
-                <img class="hero-avatar" src="证件照.png" alt="程梦茜">
-            </div>
-            <h1 class="hero-name">程梦茜</h1>
-            <p class="hero-subtitle">武汉大学 · 人力资源管理 / 大连理工大学 · 企业管理硕士在读</p>
-            <div class="hero-contact">
-                <a class="tag" href="tel:13349864372">
-                    <span class="icon">📞</span> 133-4986-4372
-                </a>
-                <a class="tag" href="mailto:1374634572@qq.com">
-                    <span class="icon">✉️</span> 1374634572@qq.com
-                </a>
-                <span class="tag">
-                    <span class="icon">📍</span> 可一周内到岗
-                </span>
-            </div>
-        </div>
-        <div class="scroll-hint">
-            <span>向下滚动</span>
-            <div class="arrow"></div>
-        </div>
-    </section>
-
-    <!-- Wave Divider -->
-    <div class="wave-divider" aria-hidden="true">
-        <svg viewBox="0 0 1440 80" preserveAspectRatio="none">
-            <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="var(--bg)" class="wave-fill"/>
-        </svg>
+    <!-- Page Indicators -->
+    <div class="page-dots" id="pageDots">
+        <button class="page-dot active" data-page="0"><span class="dot-label">首页</span></button>
+        <button class="page-dot" data-page="1"><span class="dot-label">教育</span></button>
+        <button class="page-dot" data-page="2"><span class="dot-label">项目</span></button>
+        <button class="page-dot" data-page="3"><span class="dot-label">技能</span></button>
     </div>
 
-    <!-- Education -->
-    <section class="section" id="education">
-        <div class="section-inner">
-            <div class="section-header reveal">
-                <span class="section-label">Education</span>
-                <h2 class="section-title">🎓 教育背景</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="edu-grid">
-                <div class="edu-card undergrad reveal">
-                    <span class="edu-icon">🏛️</span>
-                    <div class="school">武汉大学</div>
-                    <div class="degree">人力资源管理 · 本科</div>
-                    <div class="period">2021.09 — 2025.06</div>
-                </div>
-                <div class="edu-card grad reveal reveal-delay-1">
-                    <span class="edu-icon">🎓</span>
-                    <div class="school">大连理工大学</div>
-                    <div class="degree">企业管理 · 硕士研究生（在读）</div>
-                    <div class="period">2025.09 — 至今</div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- ==================== HORIZONTAL PAGES ==================== -->
+    <div class="pages-wrapper" id="pagesWrapper">
 
-    <!-- Projects -->
-    <section class="section section-alt" id="projects">
-        <div class="section-inner">
-            <div class="section-header reveal">
-                <span class="section-label">Projects</span>
-                <h2 class="section-title">📋 项目经历</h2>
-                <div class="section-line"></div>
+        <!-- PAGE 1: HERO -->
+        <section class="page hero-page" id="page-home" data-page="0">
+            <div class="hero-mesh" aria-hidden="true">
+                <div class="orb"></div><div class="orb"></div>
+                <div class="orb"></div><div class="orb"></div>
             </div>
-
-            <!-- Project 1 -->
-            <div class="project-card reveal">
-                <div class="project-header">
-                    <h3>中小学生学业辅导项目</h3>
-                    <span class="project-role">独立教学运营负责人</span>
+            <div class="hero-content">
+                <div class="hero-avatar-wrap">
+                    <img class="hero-avatar" src="证件照.png" alt="程梦茜">
                 </div>
-                <div class="project-period">2023.02 — 2025.05</div>
-                <div class="project-body">
+                <h1 class="hero-name">程梦茜</h1>
+                <p class="hero-subtitle">武汉大学 · 人力资源管理 / 大连理工大学 · 企业管理硕士在读</p>
+                <div class="hero-contact">
+                    <a class="tag" href="tel:13349864372"><span class="icon">📞</span> 133-4986-4372</a>
+                    <a class="tag" href="mailto:1374634572@qq.com"><span class="icon">✉️</span> 1374634572@qq.com</a>
+                    <span class="tag"><span class="icon">📍</span> 可一周内到岗</span>
+                </div>
+            </div>
+            <div class="swipe-hint">
+                <span>向右滑动</span>
+                <div class="arrow-right"></div>
+            </div>
+        </section>
+
+        <!-- PAGE 2: EDUCATION -->
+        <section class="page edu-page" id="page-edu" data-page="1">
+            <div class="page-inner">
+                <div class="page-header">
+                    <span class="page-label">Education</span>
+                    <h2 class="page-title">🎓 教育背景</h2>
+                    <div class="page-line"></div>
+                </div>
+                <div class="edu-cards">
+                    <div class="edu-card undergrad">
+                        <span class="edu-icon">🏛️</span>
+                        <div class="school">武汉大学</div>
+                        <div class="degree">人力资源管理 · 本科</div>
+                        <div class="period">2021.09 — 2025.06</div>
+                    </div>
+                    <div class="edu-card grad">
+                        <span class="edu-icon">🎓</span>
+                        <div class="school">大连理工大学</div>
+                        <div class="degree">企业管理 · 硕士研究生（在读）</div>
+                        <div class="period">2025.09 — 至今</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PAGE 3: PROJECTS -->
+        <section class="page projects-page" id="page-projects" data-page="2">
+            <div class="page-inner">
+                <div class="page-header">
+                    <span class="page-label">Projects</span>
+                    <h2 class="page-title">📋 项目经历</h2>
+                    <div class="page-line"></div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>中小学生学业辅导项目</h3>
+                        <span class="project-role">独立教学运营负责人</span>
+                    </div>
+                    <div class="project-period">2023.02 — 2025.05</div>
                     <div class="project-item">
                         <div class="bullet"></div>
                         <div><strong>需求诊断：</strong>为精准匹配学生提分需求，独立完成学情诊断与教学方案设计，累计服务十组家庭以上，针对不同学段与能力模型制定差异化辅导策略，学生单科成绩平均提升 <span class="highlight">30%</span>。</div>
@@ -1135,23 +738,20 @@
                         <div class="bullet"></div>
                         <div><strong>成果沉淀：</strong>为提升服务标准化与复用效率，沉淀典型错题案例库与分层教案模板 <span class="highlight">6 份</span>，形成可复用的个性化教学框架，降低后续服务交付成本。</div>
                     </div>
+                    <div class="project-tags">
+                        <span class="project-tag">教学运营</span>
+                        <span class="project-tag">用户转化</span>
+                        <span class="project-tag">标准化沉淀</span>
+                        <span class="project-tag">客户维护</span>
+                    </div>
                 </div>
-                <div class="project-tags">
-                    <span class="project-tag">教学运营</span>
-                    <span class="project-tag">用户转化</span>
-                    <span class="project-tag">标准化沉淀</span>
-                    <span class="project-tag">客户维护</span>
-                </div>
-            </div>
 
-            <!-- Project 2 -->
-            <div class="project-card reveal reveal-delay-1">
-                <div class="project-header">
-                    <h3>游戏周边社群运营（自主创业经历）</h3>
-                    <span class="project-role">社群运营群主</span>
-                </div>
-                <div class="project-period">2023.02 — 2025.05</div>
-                <div class="project-body">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>游戏周边社群运营（自主创业经历）</h3>
+                        <span class="project-role">社群运营群主</span>
+                    </div>
+                    <div class="project-period">2023.02 — 2025.05</div>
                     <div class="project-item">
                         <div class="bullet"></div>
                         <div><strong>从零搭建：</strong>为搭建二次元谷子交易私域、实现拉新促活与转化增长，负责社群全链路运营，从 <span class="highlight">0 到 1</span> 搭建千人精准社群，统筹活动策划、KOC 孵化、选品定价与数据迭代，最终形成用户自传播转化闭环。</div>
@@ -1168,24 +768,21 @@
                         <div class="bullet"></div>
                         <div><strong>数据成果：</strong>通过精细化运营与策略优化，达成单月最高 <span class="highlight">GMV 近万元</span>、社群月活超 <span class="highlight">80%</span>，成功打造"用户种草 → 自传播 → 新客转化"的高效运营闭环，实现增长与转化双突破。</div>
                     </div>
+                    <div class="project-tags">
+                        <span class="project-tag">私域运营</span>
+                        <span class="project-tag">KOC 孵化</span>
+                        <span class="project-tag">数据迭代</span>
+                        <span class="project-tag">转化漏斗</span>
+                        <span class="project-tag">GMV 增长</span>
+                    </div>
                 </div>
-                <div class="project-tags">
-                    <span class="project-tag">私域运营</span>
-                    <span class="project-tag">KOC 孵化</span>
-                    <span class="project-tag">数据迭代</span>
-                    <span class="project-tag">转化漏斗</span>
-                    <span class="project-tag">GMV 增长</span>
-                </div>
-            </div>
 
-            <!-- Project 3 -->
-            <div class="project-card reveal reveal-delay-2">
-                <div class="project-header">
-                    <h3>大连市流动摊点治理路径探究</h3>
-                    <span class="project-role">数据分析 + 可视化</span>
-                </div>
-                <div class="project-period">2025.11 — 2025.12</div>
-                <div class="project-body">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>大连市流动摊点治理路径探究</h3>
+                        <span class="project-role">数据分析 + 可视化</span>
+                    </div>
+                    <div class="project-period">2025.11 — 2025.12</div>
                     <div class="project-item">
                         <div class="bullet"></div>
                         <div><strong>数据采集：</strong>设计 <span class="highlight">3 套</span>专项问卷，完成 <span class="highlight">781 份</span>有效问卷、<span class="highlight">30+</span> 人次深度访谈，建立标准化调研数据库，保障样本有效性（问卷有效率 <span class="highlight">91%-95%</span>）。</div>
@@ -1202,102 +799,92 @@
                         <div class="bullet"></div>
                         <div><strong>成果输出：</strong>独立完成数据分析报告与可视化章节撰写，提炼"规划-管理-监督"三维治理路径，提出数字化智慧摊点建设方案，最终在 <span class="highlight">二十余小组中评分第一</span> 🏆。</div>
                     </div>
-                </div>
-                <div class="project-tags">
-                    <span class="project-tag">Python</span>
-                    <span class="project-tag">K-means</span>
-                    <span class="project-tag">SPSS</span>
-                    <span class="project-tag">数据可视化</span>
-                    <span class="project-tag">问卷设计</span>
-                    <span class="project-tag">文本挖掘</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section class="section" id="skills">
-        <div class="section-inner">
-            <div class="section-header reveal">
-                <span class="section-label">Skills</span>
-                <h2 class="section-title">💡 个人优势</h2>
-                <div class="section-line"></div>
-            </div>
-            <div class="bento-grid">
-                <!-- Card 1: Data — wide -->
-                <div class="bento-card bento-wide reveal">
-                    <div class="bento-icon">📊</div>
-                    <h4>数据处理与分析</h4>
-                    <p>曾于全国大学生数学竞赛获奖，对数字非常敏感。精通数据分析全流程，从数据采集、清洗到可视化输出。</p>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <span>Excel</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="95%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <span>SPSS</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="85%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <span>Stata</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="80%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <span>Python</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="75%"></div></div>
-                        </div>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">K-means</span>
+                        <span class="project-tag">SPSS</span>
+                        <span class="project-tag">数据可视化</span>
+                        <span class="project-tag">问卷设计</span>
+                        <span class="project-tag">文本挖掘</span>
                     </div>
                 </div>
+            </div>
+        </section>
 
-                <!-- Card 2: Tools — tall -->
-                <div class="bento-card bento-tall reveal reveal-delay-1">
-                    <div class="bento-icon">🛠️</div>
-                    <h4>工具与软件</h4>
-                    <p>熟练运用多种效率工具与设计软件，擅长利用 AI 工具提升工作效率与输出质量。</p>
-                    <div class="skill-bars">
-                        <div class="skill-bar-item">
-                            <span>AI 工具</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="90%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <span>PS</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="78%"></div></div>
-                        </div>
-                        <div class="skill-bar-item">
-                            <span>可视化</span>
-                            <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="88%"></div></div>
+        <!-- PAGE 4: SKILLS -->
+        <section class="page skills-page" id="page-skills" data-page="3">
+            <div class="page-inner">
+                <div class="page-header">
+                    <span class="page-label">Skills</span>
+                    <h2 class="page-title">💡 个人优势</h2>
+                    <div class="page-line"></div>
+                </div>
+                <div class="bento-grid">
+                    <div class="bento-card bento-wide">
+                        <div class="bento-icon">📊</div>
+                        <h4>数据处理与分析</h4>
+                        <p>曾于全国大学生数学竞赛获奖，对数字非常敏感。精通数据分析全流程，从数据采集、清洗到可视化输出。</p>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <span>Excel</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="95%"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span>SPSS</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="85%"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span>Stata</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="80%"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span>Python</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="75%"></div></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Card 3: English -->
-                <div class="bento-card reveal reveal-delay-1">
-                    <div class="bento-icon">🌍</div>
-                    <h4>英语能力</h4>
-                    <p>持有<strong>大学英语六级（CET-6）</strong>证书，参与过英国访学交流活动，具备良好的英文读写与沟通能力，能够进行英文文献阅读与学术写作。</p>
-                </div>
-
-                <!-- Card 4: Core competencies — wide -->
-                <div class="bento-card bento-wide reveal reveal-delay-2">
-                    <div class="bento-icon">🎯</div>
-                    <h4>核心素养</h4>
-                    <p>具备<strong>独立操盘</strong>能力——从 0 到 1 搭建千人社群、独立运营教学项目；<strong>数据驱动</strong>思维——擅用数据分析指导策略迭代；<strong>强自驱力</strong>——兼顾学业与多个实战项目并取得优异成绩。</p>
+                    <div class="bento-card bento-tall">
+                        <div class="bento-icon">🛠️</div>
+                        <h4>工具与软件</h4>
+                        <p>熟练运用多种效率工具与设计软件，擅长利用 AI 工具提升工作效率与输出质量。</p>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <span>AI 工具</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="90%"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span>PS</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="78%"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <span>可视化</span>
+                                <div class="skill-bar"><div class="skill-bar-fill" style="width:0%" data-width="88%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bento-card">
+                        <div class="bento-icon">🌍</div>
+                        <h4>英语能力</h4>
+                        <p>持有<strong>大学英语六级（CET-6）</strong>证书，参与过英国访学交流活动，具备良好的英文读写与沟通能力，能够进行英文文献阅读与学术写作。</p>
+                    </div>
+                    <div class="bento-card bento-wide">
+                        <div class="bento-icon">🎯</div>
+                        <h4>核心素养</h4>
+                        <p>具备<strong>独立操盘</strong>能力——从 0 到 1 搭建千人社群、独立运营教学项目；<strong>数据驱动</strong>思维——擅用数据分析指导策略迭代；<strong>强自驱力</strong>——兼顾学业与多个实战项目并取得优异成绩。</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+    </div><!-- /pages-wrapper -->
 
     <!-- Footer -->
     <footer class="footer">
         <p>© 2026 <strong>程梦茜</strong> · 期待与您交流</p>
-        <div class="footer-links">
-            <a href="tel:13349864372">📞 电话</a>
-            <a href="mailto:1374634572@qq.com">✉️ 邮箱</a>
-        </div>
     </footer>
 
-    <!-- Back to Top -->
-    <button class="back-top" id="backTop" aria-label="返回顶部">↑</button>
+    <!-- Back to First Page -->
+    <button class="back-home" id="backHome" aria-label="回到首页">⟸</button>
 
     <script>
         /* ========================================
@@ -1306,31 +893,22 @@
         (function() {
             const html = document.documentElement;
             const toggle = document.getElementById('themeToggle');
-
-            // Load saved or system preference
             const saved = localStorage.getItem('theme');
             if (saved) {
                 html.setAttribute('data-theme', saved);
             } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
                 html.setAttribute('data-theme', 'dark');
             }
-
-            // Update toggle icon
             function updateIcon() {
-                const isDark = html.getAttribute('data-theme') === 'dark';
-                toggle.textContent = isDark ? '☀️' : '🌙';
+                toggle.textContent = html.getAttribute('data-theme') === 'dark' ? '☀️' : '🌙';
             }
             updateIcon();
-
             toggle.addEventListener('click', () => {
-                const current = html.getAttribute('data-theme');
-                const next = current === 'dark' ? 'light' : 'dark';
+                const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
                 html.setAttribute('data-theme', next);
                 localStorage.setItem('theme', next);
                 updateIcon();
             });
-
-            // Listen for system changes
             window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
                 if (!localStorage.getItem('theme')) {
                     html.setAttribute('data-theme', e.matches ? 'dark' : 'light');
@@ -1340,77 +918,97 @@
         })();
 
         /* ========================================
-           READING PROGRESS BAR
+           HORIZONTAL SCROLL — Navigation & Indicators
            ======================================== */
         (function() {
-            const bar = document.getElementById('progressBar');
-            window.addEventListener('scroll', () => {
-                const scrollTop = window.scrollY;
-                const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-                const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
-                bar.style.width = Math.min(progress, 100) + '%';
-            });
-        })();
+            const wrapper = document.getElementById('pagesWrapper');
+            const pages = wrapper.querySelectorAll('.page');
+            const totalPages = pages.length;
+            const navLinks = document.querySelectorAll('.nav-links a[data-page]');
+            const dots = document.querySelectorAll('.page-dot');
+            const progressBar = document.getElementById('progressBar');
+            const backHome = document.getElementById('backHome');
 
-        /* ========================================
-           NAV SCROLL + BACK TO TOP
-           ======================================== */
-        (function() {
-            const nav = document.getElementById('nav');
-            const backTop = document.getElementById('backTop');
-
-            window.addEventListener('scroll', () => {
-                const scrolled = window.scrollY > 40;
-                nav.classList.toggle('scrolled', scrolled);
-                backTop.classList.toggle('visible', window.scrollY > 500);
-            });
-
-            backTop.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        })();
-
-        /* ========================================
-           ACTIVE NAV LINK
-           ======================================== */
-        (function() {
-            const sections = document.querySelectorAll('section[id]');
-            const navLinks = document.querySelectorAll('.nav-links a');
-
-            window.addEventListener('scroll', () => {
-                let current = '';
-                sections.forEach(section => {
-                    const top = section.offsetTop - 120;
-                    if (window.scrollY >= top) {
-                        current = section.getAttribute('id');
-                    }
-                });
-                navLinks.forEach(link => {
-                    link.classList.toggle('active', link.getAttribute('href') === '#' + current);
-                });
-            });
-        })();
-
-        /* ========================================
-           SCROLL REVEAL — JS Fallback
-           ======================================== */
-        (function() {
-            // Use JS fallback if CSS scroll-driven animations aren't supported
-            const supportsScrollDriven = CSS.supports('animation-timeline: view()');
-
-            if (!supportsScrollDriven) {
-                const revealEls = document.querySelectorAll('.reveal');
-                const observer = new IntersectionObserver((entries) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            entry.target.classList.add('reveal-visible');
-                            observer.unobserve(entry.target);
-                        }
-                    });
-                }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
-
-                revealEls.forEach(el => observer.observe(el));
+            function getCurrentPage() {
+                const scrollLeft = wrapper.scrollLeft;
+                const pageWidth = wrapper.clientWidth;
+                return Math.round(scrollLeft / pageWidth);
             }
+
+            function scrollToPage(index) {
+                const pageWidth = wrapper.clientWidth;
+                wrapper.scrollTo({ left: index * pageWidth, behavior: 'smooth' });
+            }
+
+            // Nav links click
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    scrollToPage(parseInt(link.dataset.page));
+                });
+            });
+
+            // Dot indicators click
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    scrollToPage(parseInt(dot.dataset.page));
+                });
+            });
+
+            // Back to first page
+            backHome.addEventListener('click', () => scrollToPage(0));
+
+            // Update UI on scroll
+            let ticking = false;
+            wrapper.addEventListener('scroll', () => {
+                if (!ticking) {
+                    requestAnimationFrame(() => {
+                        const current = getCurrentPage();
+
+                        // Update dots
+                        dots.forEach((d, i) => d.classList.toggle('active', i === current));
+
+                        // Update nav links
+                        navLinks.forEach(a => a.classList.toggle('active', parseInt(a.dataset.page) === current));
+
+                        // Update progress bar
+                        const progress = totalPages > 1
+                            ? (wrapper.scrollLeft / ((totalPages - 1) * wrapper.clientWidth)) * 100
+                            : 0;
+                        progressBar.style.width = Math.min(progress, 100) + '%';
+
+                        // Show/hide back button
+                        backHome.classList.toggle('visible', current > 0);
+
+                        ticking = false;
+                    });
+                    ticking = true;
+                }
+            });
+
+            // Keyboard navigation
+            document.addEventListener('keydown', (e) => {
+                const current = getCurrentPage();
+                if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    if (current < totalPages - 1) scrollToPage(current + 1);
+                } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    if (current > 0) scrollToPage(current - 1);
+                }
+            });
+
+            // Touch swipe hint — hide after first scroll
+            const swipeHint = document.querySelector('.swipe-hint');
+            wrapper.addEventListener('scroll', () => {
+                if (wrapper.scrollLeft > 50 && swipeHint) {
+                    swipeHint.style.opacity = '0';
+                    swipeHint.style.transition = 'opacity 0.5s';
+                }
+            }, { once: false });
+
+            // Initialize — trigger once
+            wrapper.dispatchEvent(new Event('scroll'));
         })();
 
         /* ========================================
@@ -1418,18 +1016,21 @@
            ======================================== */
         (function() {
             const skillBars = document.querySelectorAll('.skill-bar-fill');
+            const skillsPage = document.getElementById('page-skills');
+
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        const bar = entry.target;
-                        const targetWidth = bar.getAttribute('data-width');
-                        bar.style.width = targetWidth;
-                        observer.unobserve(bar);
+                        skillBars.forEach(bar => {
+                            bar.style.width = bar.getAttribute('data-width');
+                        });
+                    } else {
+                        skillBars.forEach(bar => { bar.style.width = '0%'; });
                     }
                 });
-            }, { threshold: 0.3 });
+            }, { threshold: 0.2 });
 
-            skillBars.forEach(bar => observer.observe(bar));
+            observer.observe(skillsPage);
         })();
     </script>
 </body>
