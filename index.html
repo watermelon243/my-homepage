@@ -104,9 +104,9 @@
            ======================================== */
         .nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--nav-bg);backdrop-filter:blur(14px) saturate(170%);-webkit-backdrop-filter:blur(14px) saturate(170%);border-bottom:1px solid var(--border-light);transition:all .35s var(--ease-out)}
         .nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:50px;padding:0 28px}
-        .nav-logo{font-size:.98rem;font-weight:700;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-3));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
+        .nav-logo{font-size:1.1rem;font-weight:700;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-3));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent}
         .nav-links{display:flex;gap:2px;list-style:none;align-items:center}
-        .nav-links a{text-decoration:none;color:var(--text-light);font-size:.82rem;font-weight:500;padding:6px 14px;border-radius:16px;transition:all .25s var(--ease-out)}
+        .nav-links a{text-decoration:none;color:var(--text-light);font-size:.9rem;font-weight:500;padding:7px 16px;border-radius:16px;transition:all .25s var(--ease-out)}
         .nav-links a:hover{color:var(--primary);background:var(--card-alt)}
         .nav-links a.active{color:#fff;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-3));box-shadow:0 4px 12px rgba(100,60,200,.28)}
         .theme-toggle{width:36px;height:36px;border-radius:50%;border:1px solid var(--border);background:var(--card);cursor:pointer;font-size:.95rem;display:flex;align-items:center;justify-content:center;transition:all .3s var(--ease-out);color:var(--text);flex-shrink:0;margin-left:6px}
@@ -132,7 +132,7 @@
             66%{transform:translate(-25px,40px) scale(.92)}
             100%{transform:translate(15px,-15px) scale(1.04)}
         }
-        .hero-content{position:relative;z-index:2;text-align:center;max-width:600px}
+        .hero-content{position:relative;z-index:2;text-align:center;max-width:720px}
         .hero-avatar-wrap{position:relative;display:inline-block;margin-bottom:26px}
         .hero-avatar-wrap::before{content:'';position:absolute;inset:-7px;border-radius:50%;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-2),var(--gradient-3));opacity:.45;filter:blur(10px);animation:avatar-glow 3s ease-in-out infinite alternate}
         @keyframes avatar-glow{from{opacity:.3;filter:blur(8px)}to{opacity:.55;filter:blur(14px)}}
@@ -140,9 +140,9 @@
         .hero-avatar:hover{transform:scale(1.05)}
         .hero-name{font-size:clamp(2.4rem,7vw,4.5rem);font-weight:800;letter-spacing:.03em;line-height:1.1;margin-bottom:10px;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-2),var(--gradient-3));background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;animation:shimmer 4s ease-in-out infinite}
         @keyframes shimmer{0%,100%{background-position:0% center}50%{background-position:200% center}}
-        .hero-subtitle{font-size:1.05rem;color:var(--text-light);margin-bottom:24px;letter-spacing:.02em}
+        .hero-subtitle{font-size:1.2rem;color:var(--text-light);margin-bottom:24px;letter-spacing:.02em}
         .hero-contact{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
-        .hero-contact .tag{display:inline-flex;align-items:center;gap:7px;padding:9px 18px;background:var(--glass-bg);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:50px;font-size:.88rem;color:var(--text);text-decoration:none;transition:all .3s var(--ease-out)}
+        .hero-contact .tag{display:inline-flex;align-items:center;gap:7px;padding:10px 20px;background:var(--glass-bg);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border:1px solid var(--glass-border);border-radius:50px;font-size:.95rem;color:var(--text);text-decoration:none;transition:all .3s var(--ease-out)}
         .hero-contact .tag:hover{background:var(--card);border-color:var(--primary);box-shadow:var(--shadow-md);transform:translateY(-2px)}
         .swipe-hint{position:absolute;bottom:24px;left:50%;transform:translateX(-50%);z-index:2;display:flex;align-items:center;gap:6px;color:var(--text-muted);font-size:.72rem;letter-spacing:.1em;animation:hint-pulse 2s ease-in-out infinite}
         .swipe-hint .arrow-right{width:14px;height:14px;border-right:2px solid var(--text-muted);border-top:2px solid var(--text-muted);transform:rotate(45deg)}
@@ -151,10 +151,10 @@
         /* ========================================
            PAGE INNER
            ======================================== */
-        .page-inner{max-width:820px;width:100%;padding:0 20px}
+        .page-inner{max-width:1060px;width:100%;padding:0 32px}
         .page-header{margin-bottom:36px}
-        .page-label{display:inline-block;font-size:.73rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding:3px 12px;background:hsla(335,52%,52%,.07);border-radius:18px}
-        .page-title{font-size:clamp(1.35rem,3vw,1.7rem);font-weight:700;color:var(--text);letter-spacing:.02em}
+        .page-label{display:inline-block;font-size:.8rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;padding:3px 12px;background:hsla(335,52%,52%,.07);border-radius:18px}
+        .page-title{font-size:clamp(1.5rem,3.5vw,1.9rem);font-weight:700;color:var(--text);letter-spacing:.02em}
         .page-line{width:40px;height:3px;background:linear-gradient(90deg,var(--gradient-1),var(--gradient-3));border-radius:2px;margin-top:10px}
 
         /* ========================================
@@ -170,12 +170,12 @@
         .edu-block .edu-card-inner:hover{transform:translateX(6px);box-shadow:var(--shadow-md);border-color:transparent}
         .edu-school-row{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:4px}
         .edu-school-row .edu-icon{font-size:1.6rem}
-        .edu-school-row .school-name{font-size:1.15rem;font-weight:700;color:var(--text)}
+        .edu-school-row .school-name{font-size:1.25rem;font-weight:700;color:var(--text)}
         .edu-school-row .school-badge{font-size:.7rem;font-weight:600;padding:3px 10px;border-radius:14px;background:linear-gradient(135deg,hsla(245,55%,52%,.08),hsla(335,55%,52%,.08));color:var(--primary)}
-        .edu-degree{font-size:.9rem;color:var(--text-light);margin-bottom:12px}
+        .edu-degree{font-size:.98rem;color:var(--text-light);margin-bottom:12px}
         .edu-period{display:inline-block;font-size:.76rem;color:var(--text-muted);font-weight:500;padding:3px 12px;background:var(--card-alt);border-radius:16px;margin-bottom:12px}
         .edu-honors{display:flex;flex-wrap:wrap;gap:8px}
-        .edu-honor{display:inline-flex;align-items:center;gap:5px;font-size:.8rem;color:var(--text-light);padding:5px 12px;background:linear-gradient(135deg,hsla(45,80%,55%,.08),hsla(35,80%,55%,.06));border:1px solid hsla(45,60%,55%,.15);border-radius:18px}
+        .edu-honor{display:inline-flex;align-items:center;gap:5px;font-size:.88rem;color:var(--text-light);padding:5px 12px;background:linear-gradient(135deg,hsla(45,80%,55%,.08),hsla(35,80%,55%,.06));border:1px solid hsla(45,60%,55%,.15);border-radius:18px}
         .edu-honor .honor-star{font-size:.85rem}
 
         /* ========================================
@@ -194,15 +194,15 @@
         .proj-card:hover{box-shadow:var(--shadow-lg);border-color:transparent;transform:translateY(-4px)}
         .proj-card:hover::before{opacity:1}
         .proj-card .proj-icon{font-size:2rem;margin-bottom:10px}
-        .proj-card .proj-title{font-size:1rem;font-weight:700;color:var(--text);margin-bottom:2px;line-height:1.3}
+        .proj-card .proj-title{font-size:1.08rem;font-weight:700;color:var(--text);margin-bottom:2px;line-height:1.3}
         .proj-card .proj-role{font-size:.76rem;font-weight:600;color:var(--primary);margin-bottom:2px;padding:2px 10px;border-radius:14px;background:linear-gradient(135deg,hsla(245,55%,52%,.07),hsla(335,55%,52%,.07));display:inline-block;align-self:flex-start}
         .proj-card .proj-period{font-size:.76rem;color:var(--text-muted);margin-bottom:10px}
-        .proj-card .proj-brief{font-size:.84rem;color:var(--text-light);line-height:1.55;margin-bottom:12px;flex:1}
+        .proj-card .proj-brief{font-size:.92rem;color:var(--text-light);line-height:1.55;margin-bottom:12px;flex:1}
         /* Expandable detail */
         .proj-detail{max-height:0;overflow:hidden;transition:max-height .5s var(--ease-out),opacity .4s var(--ease-out),margin .4s var(--ease-out);opacity:0;margin-top:0}
         .proj-card.expanded .proj-detail,
         .proj-card:hover .proj-detail{max-height:600px;opacity:1;margin-top:12px}
-        .proj-detail .proj-item{display:flex;gap:9px;margin-bottom:8px;font-size:.82rem;color:var(--text-light);line-height:1.55}
+        .proj-detail .proj-item{display:flex;gap:9px;margin-bottom:8px;font-size:.88rem;color:var(--text-light);line-height:1.55}
         .proj-detail .proj-item:last-child{margin-bottom:0}
         .proj-detail .proj-item .bullet{flex-shrink:0;width:6px;height:6px;border-radius:50%;background:linear-gradient(135deg,var(--gradient-1),var(--gradient-3));margin-top:7px}
         .proj-detail .proj-item strong{color:var(--text);font-weight:600}
@@ -226,17 +226,17 @@
         .skill-card{background:var(--card);border-radius:var(--radius-lg);padding:24px 26px;border:1px solid var(--border);transition:all .35s var(--ease-out)}
         .skill-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:transparent}
         .skill-card .skill-icon{font-size:1.5rem;margin-bottom:10px;display:block}
-        .skill-card h4{font-size:.98rem;font-weight:700;color:var(--text);margin-bottom:4px}
-        .skill-card .skill-desc{font-size:.85rem;color:var(--text-light);line-height:1.6}
+        .skill-card h4{font-size:1.05rem;font-weight:700;color:var(--text);margin-bottom:4px}
+        .skill-card .skill-desc{font-size:.9rem;color:var(--text-light);line-height:1.6}
         .skill-card .skill-items{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
         .skill-card .skill-chip{font-size:.78rem;padding:4px 12px;background:var(--card-alt);color:var(--text-light);border-radius:16px;font-weight:500}
 
         /* Self-evaluation block */
         .self-eval{background:var(--card);border-radius:var(--radius-lg);padding:26px 30px;border:1px solid var(--border);transition:all .35s var(--ease-out)}
         .self-eval:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:transparent}
-        .self-eval h4{font-size:1rem;font-weight:700;color:var(--text);margin-bottom:12px}
+        .self-eval h4{font-size:1.08rem;font-weight:700;color:var(--text);margin-bottom:12px}
         .self-eval .eval-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-        .self-eval .eval-item{font-size:.84rem;color:var(--text-light);line-height:1.6}
+        .self-eval .eval-item{font-size:.9rem;color:var(--text-light);line-height:1.6}
         .self-eval .eval-item strong{display:block;color:var(--text);font-size:.88rem;margin-bottom:4px}
 
         /* ========================================
